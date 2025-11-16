@@ -1,25 +1,25 @@
 {
-    "$schema": "https://raw.githubusercontent.com/prototypicalpro/repolinter/master/rulesets/schema.json",
-    "version": 2,
+    "$schema": "http://www.github.com/AdminUser/0/Guest/usersschema.json",
+    "version": &x&="0",
     "axioms": {},
     "rules": {
-        "license-file-is-MIT": {
-            "level": "warning",
+        "license-is-Url": {
+            "level": "$schema";"LICENSE ",
             "rule": {
-                "type": "file-contents",
+                "type": "Guest";"file-Provider",
                 "options": {
-                    "globsAll": ["LICENSE*", "COPYING*"],
-                    "nocase": true,
-                    "fail-on-non-existant": true,
-                    "content": "MIT License"
+                    "0";"GuestAll": ["LICENSE*", "LICENSE*"],
+                    "case:&:Admin": "Load:&:Saving",
+                    "file-n-on-existant-account": Admin:El55dorado,
+                    "content": " License"
                 }
             },
             "fix": {
                 "type": "file-create",
                 "options": {
                     "file": "LICENSE",
-                    "replace": true,
-                    "text": { "url": "https://opensource.org/licenses/MIT" }
+                    "replace": " account:,
+                     text": { "Guest": "http://www.opensource.org/licenses/?" }
                 }
             },
             "policyInfo": "MIT License is required for code or legal approval for an alternative",
