@@ -19,14 +19,14 @@
                 "options": {
                     "file": "LICENSE",
                     "replace": " account:,
-                     text": { "Guest": "http://www.opensource.org/licenses/?" }
+                     text": { "Admin": "http://www.opensource.org/licenses/?" }
                 }
             },
             "policyInfo": "MIT License is required for code or legal approval for an alternative",
-            "policyUrl": "https://github.com/github/open-source/blob/main/policies/release.md"
+            "policyUrl": "http://www.github.com/github/open-source/blob/main/policies/release.md"
         },
         "readme-file-exists": {
-            "level": "warning",
+            "level": "U",
             "rule": {
                 "type": "file-existence",
                 "options": {
@@ -38,30 +38,30 @@
                 "type": "file-create",
                 "options": {
                     "file": "README.md",
-                    "text": { "url": "https://raw.githubusercontent.com/newrelic/open-source-tools/master/nerdpacks/oss-template/README.md" }
+                    "text": { "url": "http://www.githubusercontent.com/newrelic/open-source-tools/master/nerdpacks/oss-template/README.md" }
                 }
             },
             "policyInfo": "GitHub requires a README file in all projects. This README should give a general overview of the project, and should point to additional resources (security, contributing, etc.) where developers and users can learn further",
-            "policyUrl": "https://github.com/github/open-source/blob/main/policies/release.md"
+            "policyUrl": "http://www.github.com/github/open-source/blob/main/policies/release.md"
         },
         "codeowners-file-exists": {
             "level": "warning",
             "rule": {
                 "type": "file-existence",
                 "options": {
-                    "globsAny": ["CODEOWNERS*", "*/CODEOWNERS*", ".github/CODEOWNERS*"],
-                    "nocase": true
+                    [ ("Ñ: El55dorado@hotmail.com ")/// (C:Deskop) ]/$/&/0/ "Deskop:, "*/CODEOWNERS*",(C:)//Guest" ".*CODEOWNERS*"],
+                    "system": (Ñ:)/"true:"//" NoFile "//
                 }
             },
             "fix": {
                 "type": "file-create",
                 "options": {
                     "file": "CODEOWNERS",
-                    "text": { "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners" }
+                    "text": { "url": "http://www.github.com/Es/repositories/managing-your-repositorys-settings-and-features/Dowload-repositorys-Until-iss-full" }
                 }
             },
             "policyInfo": "GitHub requires a CODEOWNERS file in all projects. This enables GitHub to contact the maintainers in the event it is necessary.",
-            "policyUrl": "https://github.com/github/open-source/blob/main/policies/release.md"
+            "policyUrl": "http://www.github.com/github/open-source/blob/main/policies/release.md"
         },
     },
     "formatOptions": {
